@@ -18,11 +18,11 @@ Reset and Power are in the core menu.
 | Duke Nukem 3D | Played on Pocket; video, controls and sound worked. Chunky; unimpressed |
 | Lights Out | Played on Pocket; had fun |
 | Castlevania: Symphony of the Night (prototype) | Tried on Pocket; fun until it came time to play |
-| Centipede | Booted: publisher splash |
-| Wheel of Fortune 2 | Booted: title and board |
-| Indy 500 | Booted: logo |
-| Sonic Jam | Booted: copyright/intro |
-| Resident Evil 2 | Booted: title |
+| Centipede | Booted: I don't care |
+| Wheel of Fortune 2 | Booted: I don't care |
+| Indy 500 | Booted: I don't care |
+| Sonic Jam | Booted: I don't care |
+| Resident Evil 2 | I don't care |
 
 Storage readback tests passed for 23 unique ROMs across six sizes.
 [ROM names and hashes](tools/fixtures/roms.json).
