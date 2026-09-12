@@ -1,5 +1,9 @@
 # Game.com tech demo for Analogue Pocket
 
+Easily one of the worst systems ever.  
+
+# Controls
+
 Hold **RT** to show the stylus. Use **RT + D-pad** to move it and **RT + A**
 to touch the screen. **LT** is the Game.com **Sound** button.
 D-pad moves; A/B/X/Y map to A/B/C/D. Start: Pause. Select: Menu.
