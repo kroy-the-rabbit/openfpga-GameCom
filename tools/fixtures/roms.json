@@ -1,0 +1,165 @@
+{
+  "roms": [
+    {
+      "name": "Batman and Robin (1997) (71-709).tgc",
+      "bytes": 2097152,
+      "crc32": "b336e530",
+      "sha1": "066d5cddce9729044ad598ad3cc3489a834f5197",
+      "sha256": "30b889c30ede7f5994d96cf6a4cccbb5bc2b78864758f0a3ed5147555c768c47"
+    },
+    {
+      "name": "CastleVania - Symphony of the Night (Prototype).tgc",
+      "bytes": 2097152,
+      "crc32": "eec4e8e3",
+      "sha1": "86fc20a233f18c4c7aac8ebed3e4d95dabc6e8bb",
+      "sha256": "52ed8d82bc838d5d6ad0616e118996906347e4ffae0c34c9de4d813ead9a8fb7"
+    },
+    {
+      "name": "Centipede (1999) (71-755).tgc",
+      "bytes": 262144,
+      "crc32": "1a041ff0",
+      "sha1": "b3d50e0cca6e2a539fba5883854aaf26424ab382",
+      "sha256": "90a493b173ff308672303eab16734ac0142134e9d317ae777903030e90c9ec71"
+    },
+    {
+      "name": "Duke Nukem 3D (1997) (71-712).tgc",
+      "bytes": 2097152,
+      "crc32": "884568d1",
+      "sha1": "9aaa1cf3b12f14201079dfbdd4c17fe868972de6",
+      "sha256": "faf6912c5094477fa83a19864f43eb2acd5929166d8b9267689d6661f5ceb5bd"
+    },
+    {
+      "name": "Fighters MegaMix (1998) (71-739).tgc",
+      "bytes": 2097152,
+      "crc32": "061e943f",
+      "sha1": "c165e5f4b61341ae0e8a4d141b28e18108942326",
+      "sha256": "517666f1a8b0a02e1f97e9ef1c6ed78875d444327bef4f22e2464d3e47ed1055"
+    },
+    {
+      "name": "Frogger (1999) (71-756).tgc",
+      "bytes": 1048576,
+      "crc32": "10e4c5cd",
+      "sha1": "8224d3e71a3da2f4029bee8b62b4a0c108c054e4",
+      "sha256": "bc0ee809ccc03f4217051be774723ebd48b11bebe1ac3df937c14c717fa71324"
+    },
+    {
+      "name": "Game.com Internet (1997) (71-529).tgc",
+      "bytes": 262144,
+      "crc32": "7e721a84",
+      "sha1": "4c6b5b91a70397cb5e1add4ab53afe3ec0fe2072",
+      "sha256": "b14a3c88296efd2ce3ed30ca527ef7b3723e901a36632b1b6997c043064a08c6"
+    },
+    {
+      "name": "Henry (1997) (71-728).tgc",
+      "bytes": 1048576,
+      "crc32": "75d3c8d8",
+      "sha1": "b72a03af1dec0c621f9eda89ded3845724bb34ac",
+      "sha256": "36e80cacdca8baf3a377ab63f6d2d9bf2a9bbd012065a875a1b1c61db54fc648"
+    },
+    {
+      "name": "Indy 500 (1997) (71-525).tgc",
+      "bytes": 1048576,
+      "crc32": "845ed281",
+      "sha1": "117bfa1c831fbcf4a1d507cb70b6e0636c29bbd3",
+      "sha256": "58cc3a3a4c33fec49bb9260ae83650a6d22b1004b4767a61307d197f6e423d5a"
+    },
+    {
+      "name": "Jeopardy! (1998) (71-726).tgc",
+      "bytes": 1048576,
+      "crc32": "8c512912",
+      "sha1": "c60ac5e59c3cc092506bc47adb60b40a9415bc97",
+      "sha256": "bd0c586bb833fcf689e516f22e3b408e3b510acc34fde7d926d6ad7f8e7dd128"
+    },
+    {
+      "name": "Lights Out (1997) (71-735).tgc",
+      "bytes": 32768,
+      "crc32": "496efa62",
+      "sha1": "1d91b616caa2d35f53ec5680aada8f75e2f0ac43",
+      "sha256": "055cf2b460ad8e5c427b172fbe15ad8b163a471e2f00c4684a63b367129ff470"
+    },
+    {
+      "name": "Lost World, The - Jurassic Park (1997) (71-704).tgc",
+      "bytes": 2097152,
+      "crc32": "b422c5f8",
+      "sha1": "648badcac6c386d7ff40f917e34bd309e737c027",
+      "sha256": "8ba2c0395e0905ebea0d4f5a04532ec53d97ea375ebe7857e733fa087305e171"
+    },
+    {
+      "name": "Monopoly (1999) (71-752) [!].tgc",
+      "bytes": 2097152,
+      "crc32": "d6a65a07",
+      "sha1": "8057144f6995eafff6d893383114b48f4c77abc3",
+      "sha256": "9816ab1e5d06f99c2b027bd3e9991c7cda8bf2dc3aeafd0b2c5573ebb76f2ae0"
+    },
+    {
+      "name": "Mortal Kombat Trilogy (1997) (71-711).tgc",
+      "bytes": 1835008,
+      "crc32": "72893a77",
+      "sha1": "d8a403a180f4a397098c8a598dd6cd5b45ef377a",
+      "sha256": "9eea16b915fec0c33a51d2cb1a5c4eb8dac744410067fa7357744dfe9203c5bd"
+    },
+    {
+      "name": "Quiz Wiz - Cyber Trivia (1997) (71-524).tgc",
+      "bytes": 1048576,
+      "crc32": "0e018f6a",
+      "sha1": "c9c4435bdcea2b9ddaa2768f28f286abd382608d",
+      "sha256": "a27be383f58f055ede7028ee2e385abd0d3764f4210b5ee57496650f1614b8ff"
+    },
+    {
+      "name": "Resident Evil 2 (1998) (71-745).tgc",
+      "bytes": 1835008,
+      "crc32": "4f09457d",
+      "sha1": "1d4d4ff13c8f7c228f30bddab174d4781b370ec9",
+      "sha256": "7aa5428b350c52b61d842a9386460cfa90be9771f0267fdbdea540a0e7a5b51b"
+    },
+    {
+      "name": "Scrabble (1999) (71-754).tgc",
+      "bytes": 2097152,
+      "crc32": "4d4ad909",
+      "sha1": "2735d59964fe7c1d43bd260df86b9dfbc1bfd736",
+      "sha256": "3c559b1818d9ea5030c864f813339c59e00f439f54df1ab6e01ee6e4afc5c8ff"
+    },
+    {
+      "name": "Sonic Jam (1998) (71-734).tgc",
+      "bytes": 2097152,
+      "crc32": "8b4a63f9",
+      "sha1": "393a98138c8825ed61990e1b15e1967f87068ac6",
+      "sha256": "72ec035f7225ad962639dbc07a9ad712d1e94a07c30ea7714fc5d772b3f06abe"
+    },
+    {
+      "name": "Tiger Casino (1998) (71-731).tgc",
+      "bytes": 1835008,
+      "crc32": "ba698142",
+      "sha1": "32ce1be96f7f367b8a0adb8cc61a8cca7d6b79dd",
+      "sha256": "ae604e45cfe8ff7f20f9eb4c3c1dd888baa7f81ab01ee3263f8a84bf7488cb34"
+    },
+    {
+      "name": "Tiger Web Link (1997) (71-747).tgc",
+      "bytes": 262144,
+      "crc32": "4c13e65b",
+      "sha1": "d4e08fc050c006ed6c1a177a1f4c41b4a68c26bb",
+      "sha256": "50cf190d108197e857aff4484a43c1de417b9f3c0ceafd0210846d46e2a31347"
+    },
+    {
+      "name": "Wheel of Fortune (1997) (71-523).tgc",
+      "bytes": 524288,
+      "crc32": "048347a0",
+      "sha1": "298c2b87754dd93481feea1d9e01585a1e269770",
+      "sha256": "b5abf503accce033b84f38dd2d2d6cb363b2ae9f09904c5035c1a3904b7ef4f2"
+    },
+    {
+      "name": "Wheel of Fortune 2 (1998) (71-527) [!].tgc",
+      "bytes": 524288,
+      "crc32": "b91e2e32",
+      "sha1": "30ddd349b8bdc21ef7ada4772ab1f3a9318ab0c8",
+      "sha256": "599ee41febcbc56bfa62881fd91e494aa1338cd782008e39eb32fe41f3e87a78"
+    },
+    {
+      "name": "Williams Arcade Classics (1997) (71-722).tgc",
+      "bytes": 1048576,
+      "crc32": "f894065d",
+      "sha1": "5e2164fa76546b2795af7b04a766e31784b82eca",
+      "sha256": "53c07d5d086d0a4a435907271880fae5c718a8bdf8a7b95552c89fbcf49b53f2"
+    }
+  ]
+}

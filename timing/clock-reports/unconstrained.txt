@@ -1,0 +1,36 @@
++---------------------+
+; Unconstrained Paths ;
++---------------------+
++------------------------------------------------+
+; Unconstrained Paths Summary                    ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 0     ; 0    ;
+; Unconstrained Input Port Paths  ; 0     ; 0    ;
+; Unconstrained Output Ports      ; 0     ; 0    ;
+; Unconstrained Output Port Paths ; 0     ; 0    ;
++---------------------------------+-------+------+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Clock Status Summary                                                                                                                                                                                    ;
++---------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-----------+-------------+
+; Target                                                                                ; Clock                                                                                 ; Type      ; Status      ;
++---------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-----------+-------------+
+; bridge_spiclk                                                                         ; bridge_spiclk                                                                         ; Base      ; Constrained ;
+; clk_74a                                                                               ; clk_74a                                                                               ; Base      ; Constrained ;
+; clk_74b                                                                               ; clk_74b                                                                               ; Base      ; Constrained ;
+; dram_clk                                                                              ; sdram_clk                                                                             ; Generated ; Constrained ;
+; ic|audio_pll|mf_audio_pll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; ic|audio_pll|mf_audio_pll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; Generated ; Constrained ;
+; ic|audio_pll|mf_audio_pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; ic|audio_pll|mf_audio_pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; Generated ; Constrained ;
+; ic|audio_pll|mf_audio_pll_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk ; ic|audio_pll|mf_audio_pll_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk ; Generated ; Constrained ;
+; ic|machine_pll|pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]                          ; ic|machine_pll|pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]                          ; Generated ; Constrained ;
+; ic|machine_pll|pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk                        ; ic|machine_pll|pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk                        ; Generated ; Constrained ;
+; ic|machine_pll|pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk                        ; ic|machine_pll|pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk                        ; Generated ; Constrained ;
+; ic|machine_pll|pll_i|general[2].gpll~PLL_OUTPUT_COUNTER|divclk                        ; ic|machine_pll|pll_i|general[2].gpll~PLL_OUTPUT_COUNTER|divclk                        ; Generated ; Constrained ;
+; ic|machine_pll|pll_i|general[3].gpll~PLL_OUTPUT_COUNTER|divclk                        ; ic|machine_pll|pll_i|general[3].gpll~PLL_OUTPUT_COUNTER|divclk                        ; Generated ; Constrained ;
+; ic|machine_pll|pll_i|general[4].gpll~PLL_OUTPUT_COUNTER|divclk                        ; ic|machine_pll|pll_i|general[4].gpll~PLL_OUTPUT_COUNTER|divclk                        ; Generated ; Constrained ;
++---------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-----------+-------------+
+

@@ -1,0 +1,30 @@
+{
+  "data": {
+    "magic": "APF_VER_1",
+    "data_slots": [
+      {
+        "name": "ROM",
+        "id": 1,
+        "required": true,
+        "parameters": "0x109",
+        "extensions": [
+          "tgc"
+        ],
+        "address": "0x10000000",
+        "size_maximum": "0x200000"
+      },
+      {
+        "name": "BIOS",
+        "id": 4,
+        "required": true,
+        "parameters": "0x88",
+        "filename": "gamecom_bios.bin",
+        "extensions": [
+          "bin"
+        ],
+        "address": "0x30000000",
+        "size_exact": 262144
+      }
+    ]
+  }
+}

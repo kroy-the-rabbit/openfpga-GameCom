@@ -1,0 +1,11 @@
+# MiSTer Game.com machine dependencies.
+set_global_assignment -name SEARCH_PATH $::quartus(qip_path)
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) rtl/gamecom.v]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) rtl/gamecom_audio_output.v]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) rtl/gamecom_input.v]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) rtl/gamecom_video.v]
+set_global_assignment -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) rtl/gamecom_cheat_engine.sv]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) rtl/sm8521.v]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) rtl/sm8521_boot_rom.v]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) rtl/Mem/cache_ram.v]
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) rtl/Mem/bram.vhd]

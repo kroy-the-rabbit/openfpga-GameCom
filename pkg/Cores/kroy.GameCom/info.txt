@@ -1,0 +1,19 @@
+Game.com tech demo - highly alpha
+
+Duke Nukem 3D: played on Pocket; controls and sound worked.
+BIOS startup matched reference footage.
+Duke felt chunky; we weren't impressed.
+
+BIOS: model 71-516, 262144 bytes, CRC32 e235a589.
+Assets/gamecom/common/gamecom_bios.bin
+ROMs: individual .tgc files in the same folder.
+ROM/BIOS libraries are not included.
+
+D-pad: directions. A/B/X/Y: A/B/C/D. Start: Pause. Select: Menu. LT: Sound.
+Hold RT to show the stylus; RT + D-pad moves it; RT + A touches.
+No cartridges, persistent saves, save states or sleep.
+
+Machine: Jamie Blanks / kitrinx and GameCom_MiSTer contributors.
+Pocket integration: kroy, based on pocket-gba.
+APF: Analogue. SDRAM reference: Sorgelig. IP: Intel/Altera.
+Source and rebuild instructions are available separately on GitHub.

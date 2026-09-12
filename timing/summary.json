@@ -1,0 +1,159 @@
+{
+  "bitstream_sha256": "8f39fcca163ead4d3709553938e90296b2ddfdb93dba1b9d1128c9cd69ac8279",
+  "cdc_checks": 96,
+  "cdc_minimum_slack_ns": 6.888,
+  "compiler": "Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition",
+  "core": "kroy.GameCom",
+  "corner_worst_slack_ns": {
+    "Fast 1100mV 0C": {
+      "Hold": 0.084,
+      "Minimum Pulse Width": 0.83,
+      "Recovery": 12.403,
+      "Removal": 0.258,
+      "Setup": 3.778
+    },
+    "Fast 1100mV 85C": {
+      "Hold": 0.132,
+      "Minimum Pulse Width": 0.83,
+      "Recovery": 12.334,
+      "Removal": 0.285,
+      "Setup": 3.66
+    },
+    "Slow 1100mV 0C": {
+      "Hold": 0.279,
+      "Minimum Pulse Width": 0.83,
+      "Recovery": 11.309,
+      "Removal": 0.755,
+      "Setup": 1.001
+    },
+    "Slow 1100mV 85C": {
+      "Hold": 0.284,
+      "Minimum Pulse Width": 0.83,
+      "Recovery": 11.183,
+      "Removal": 0.809,
+      "Setup": 0.603
+    }
+  },
+  "device": "5CEBA4F23C8",
+  "fitter_effort": "STANDARD FIT",
+  "hardware_sha256": {
+    "generate.tcl": "2555766fe8169d5ad39cfe06ec0d961ac4b52d6938034dd78463867bce1497f7",
+    "src/fpga/apf/apf.qip": "94af53185dde4d51ef30e75bb1ec8df672126742af36399bd62f4efb3a84b26a",
+    "src/fpga/apf/apf_constraints.sdc": "cbeb04fa592dc9c38ca7efa291752be69d4530e1838d1eb80e0d2767ca009ba3",
+    "src/fpga/apf/apf_top.v": "6c24aa45a3dab52d8b86944cdd90330aa74cfdcd62e2d43e39d33d4791d173c7",
+    "src/fpga/apf/build_id_gen.tcl": "59fbb66fdcb7d7d025882494c25c7b080dc6d96664bfa28fc4563505fe0fdd1d",
+    "src/fpga/apf/common.v": "c1615e2c6c12b111537f6ca11e826e5061eb91f405e349bdc649a17b48e24d4e",
+    "src/fpga/apf/io_bridge_peripheral.v": "fb9c13e0311ac6b01019898d0ca7786f370228380356fe618fc2b473f2add17d",
+    "src/fpga/apf/io_pad_controller.v": "70cda74af63d3baa53f87473e1d9e2d524ea305b299a3f832d6c1292771a305e",
+    "src/fpga/apf/mf_datatable.qip": "8d4fac9c708f86c426e5241055d8000063e16dbe9b5c414f320a8b24c44a0632",
+    "src/fpga/apf/mf_datatable.v": "d5fdf5dafc51a395e35019e14090fb9962aeb75bf5cb58a03256f0afe65701a0",
+    "src/fpga/apf/mf_ddio_bidir_12.qip": "f0ed4e73a07d734115bbde6501b43fe5878a7409f9b3b68bb4c7e0424b31b42e",
+    "src/fpga/apf/mf_ddio_bidir_12.v": "31c8b62114d7bc916104a6199d919d9e2235a164aba518360b339867a08426aa",
+    "src/fpga/build/ap_core.qsf": "f7aa76528966e133b3658d44c4c342941ef25dabcee7dbdc84770332c97afbbe",
+    "src/fpga/build/gamecom_pocket.qpf": "529147075ef2085f7326ddce66cec473fabc9078816b0539de0153a9d9bcb5a9",
+    "src/fpga/core/core.qip": "972a9509643f87fa99a957ef2713544a2e5e7b53832c8acedeb2519df3a19dcf",
+    "src/fpga/core/core_bridge_cmd.v": "278fa150bd5f93fd25eb8d4d71b37e40193cbe057c245144f84579c4b44d6290",
+    "src/fpga/core/core_constraints.sdc": "ff27a4c8ae6d8fc1b866691f1e3cd9f9be46626d843adff26f43bfa3d6bafa34",
+    "src/fpga/core/core_top.sv": "36549ac824200c3895d68499bd0c630bca7e3438f1c7d7449c030b5c9249c23f",
+    "src/fpga/core/gamecom_async_fifo.sv": "3324d57ff0f8a0901c8546ac5bdae876d5b150053f0c2279d047d1c72338f601",
+    "src/fpga/core/gamecom_i2s.sv": "6875108e2d2c597c08d5e5d2619a455844317558bd0a0a39ca965b2ec03d8b62",
+    "src/fpga/core/gamecom_machine.sv": "2ea5e1f91f1bb3e9a0d13b73e3133611595718d373a68eae387e0aa399e178a1",
+    "src/fpga/core/gamecom_memory.sv": "c2117a64f0f63ea1fa0cb7b92fd4303a0b672442befcc30d7bd5c5fbf4dcb3d3",
+    "src/fpga/core/gamecom_pll.sv": "f7a6840e076ae140cd1273e0cb04f2f17cd2ebb691956252b416af23d1e74532",
+    "src/fpga/core/gamecom_pocket_input.sv": "091f36e2854bde6bb200e6372d1c04229447fe965a16304e61d1599be2d2a68b",
+    "src/fpga/core/gamecom_reset_sync.sv": "60782660dd80eae6a53e5021da6a480b0be48eb1daba062d7b9a441a6b5b4920",
+    "src/fpga/core/gamecom_rom_loader.sv": "dc3feca77f974a3e79f8c61ff3fd6da1af1b0722b9e5774ca7275dc6ba59800d",
+    "src/fpga/core/gamecom_rtc.sv": "c8e773b9684997ee9be6e6c2652a915a80850a0ad349a0c451fc8818c90bc7ff",
+    "src/fpga/core/gamecom_sdram.sv": "9df50c17e3de7cf40bd75016a1d29b9164b94a9eafe3c31bdcc1048aa5bfeb3a",
+    "src/fpga/core/gamecom_video_adapter.sv": "4ed42ce8fe6b6fd1fe554741a69d54edf89ff7df23c23fdd99f4945133a1a592",
+    "src/fpga/gamecom/gamecom.qip": "2bfa843b6394de3ca09f3f47b55fbb378b5f7db6e17473df53773edaba38c163",
+    "src/fpga/gamecom/rtl/Mem/bram.vhd": "bd94d5912e0781004013d7db31f1ca1e46f15a2d4787a5dd8d955d5a9d031c66",
+    "src/fpga/gamecom/rtl/Mem/cache_ram.v": "1f18c11f6c4c5278ced27a4d7ad2ed4ef06ec3508cfcdcfefe380876aaccce47",
+    "src/fpga/gamecom/rtl/gamecom.v": "9430947c55c2559617cd6fba8c9877df070e3d841e2ebb9ae47d120d121c3ba8",
+    "src/fpga/gamecom/rtl/gamecom_audio_output.v": "cf061eefc228ebabc6968287877dea02b8d9899b09c658715e8560c969ba925a",
+    "src/fpga/gamecom/rtl/gamecom_cheat_engine.sv": "bc16153a8d1073a5662f3e669b49b89e7e0bdbd91965b99fb9426e9f853f65aa",
+    "src/fpga/gamecom/rtl/gamecom_input.v": "1481b10a6eab2d75a70f13c3e40e8177f9c2f6a64555078e789a6fd5750f57a5",
+    "src/fpga/gamecom/rtl/gamecom_stop_logo.hex": "6e3581fe8506bc51db36369d1ff3de865d3eb967a747a0ae59d2b6340de7842f",
+    "src/fpga/gamecom/rtl/gamecom_video.v": "51dbbceda8caf4a50e9d48d48fbcee9a9442e6fbc0d4592898620198853457a6",
+    "src/fpga/gamecom/rtl/sm8521.v": "61a5802e84b808b534e212ef67de0c7b0dc5f45ae2e540389fd0a2359c9112a8",
+    "src/fpga/gamecom/rtl/sm8521_boot_rom.v": "85d0d38bf6998783604681ab6404d969eaf6b09963e41a817f6dee08aa95dfe2",
+    "src/fpga/gamecom/rtl/sm8521_decode.v": "557e7e16ee15c474f1ebdb4bea9bbe0a96db7ecbbafbcc7084dce41d36619c46",
+    "src/fpga/gamecom/rtl/sm8521_gp_store.v": "3140d8432b04aea360552b2f137aec772d480185e110d48b1d346cb9830b71c2",
+    "src/fpga/gamecom/rtl/sm8521_sound.v": "3dc24ad04af366ee295c0883a4d3c8e096be1532aa8494f4897db27c3317d3bc",
+    "src/fpga/gamecom/rtl/sm8521_timers.v": "58457586f7557cba77d34ba3d2b5f5345a7877b96edca2a90f5b958c95a56e29",
+    "src/fpga/pocket/mf_audio_pll/mf_audio_pll.v": "9661b3e9b43cceadbbe18290d8a455b7bc57359929085317f586a889d8b2bccb",
+    "src/fpga/pocket/mf_audio_pll/mf_audio_pll_0002.v": "94df902acb41f1349bf6d4777a2c42ca0191d3b664850beb2937b6869fa6f400"
+  },
+  "original_report_sha256": {
+    "clock-reports/clocks.txt": "6212729c68cf1287aefdcd93677e939a7d11791db98f2fa21d2e1a57f6c88ccb",
+    "clock-reports/fmax-8_slow_1100mv_0c.txt": "086794918e91ba837da1a2370a484fab6e9fa26fa21aeb85663c6460920d9096",
+    "clock-reports/fmax-8_slow_1100mv_85c.txt": "eaf6110182ba38befc9713725546b329650a797941cb707cdd187f0b964ebc0e",
+    "clock-reports/fmax-MIN_fast_1100mv_0c.txt": "c39a56add27df3071824a0990941a0ae2095826b6d37ea46c2221014404bd45e",
+    "clock-reports/fmax-MIN_fast_1100mv_85c.txt": "89f1ce5a42a02770ccca08fa5cf401ba3c6b50a31aa9bafeb9929412d408f82a",
+    "clock-reports/unconstrained.txt": "80898f1db953e980a06e02920f4748ed6227932a01b4823468b3b2bd9a6bcc6b",
+    "quartus-reports/ap_core.fit.rpt": "e43f9e4fcaca4b721bb5ac639c20cd24d422d7924564b957d8baa637dabe4383",
+    "quartus-reports/ap_core.fit.summary": "e17d2252b34117c11f84920b625a222993d3b8c60131dc0f1fc936186bc724c6",
+    "quartus-reports/ap_core.sta.rpt": "37e0655ffc639f90f825fb37a513237fffa34ee16ff594a1d9f27b6f87ffc4dc",
+    "quartus-reports/ap_core.sta.summary": "f8559c707eba46ea8ff95ccee5c4d68f59c578e49f0765fb9ccaca822dd3a7a5"
+  },
+  "rebuild_source_commit": "ae87d3f347a3c227ee8bd342e332f6b300b7ea62",
+  "resources": {
+    "alms": {
+      "available": 18480,
+      "used": 12430
+    },
+    "dsp_blocks": {
+      "available": 66,
+      "used": 0
+    },
+    "memory_bits": {
+      "available": 3153920,
+      "used": 419136
+    },
+    "plls": {
+      "available": 4,
+      "used": 2
+    },
+    "ram_blocks": {
+      "available": 308,
+      "used": 62
+    }
+  },
+  "schema_version": 1,
+  "seed": 1,
+  "status": "PASS",
+  "total_negative_slack_ns": 0,
+  "unconstrained": {
+    "Illegal Clocks": [
+      0,
+      0
+    ],
+    "Unconstrained Clocks": [
+      0,
+      0
+    ],
+    "Unconstrained Input Port Paths": [
+      0,
+      0
+    ],
+    "Unconstrained Input Ports": [
+      0,
+      0
+    ],
+    "Unconstrained Output Port Paths": [
+      0,
+      0
+    ],
+    "Unconstrained Output Ports": [
+      0,
+      0
+    ]
+  },
+  "worst_slack_ns": {
+    "Hold": 0.084,
+    "Minimum Pulse Width": 0.83,
+    "Recovery": 11.183,
+    "Removal": 0.258,
+    "Setup": 0.603
+  }
+}

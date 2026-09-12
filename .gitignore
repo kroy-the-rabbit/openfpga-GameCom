@@ -1,0 +1,7 @@
+/build/
+/external/
+*.tgc
+*.bin
+*.zip
+__pycache__/
+*.pyc

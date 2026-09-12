@@ -1,0 +1,17 @@
+{
+  "LICENSE": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+  "rtl/gamecom.v": "8b50ffc5ac216df3f137dd73e8afba3b028adc61fa8bc578f15e2eaec8c4ddd9",
+  "rtl/gamecom_audio_output.v": "cf061eefc228ebabc6968287877dea02b8d9899b09c658715e8560c969ba925a",
+  "rtl/gamecom_input.v": "1481b10a6eab2d75a70f13c3e40e8177f9c2f6a64555078e789a6fd5750f57a5",
+  "rtl/gamecom_video.v": "daf4c8bbadf558ddab570224c7dadabd8cefcd07956c0501f1a4d46c72af8764",
+  "rtl/gamecom_cheat_engine.sv": "bc16153a8d1073a5662f3e669b49b89e7e0bdbd91965b99fb9426e9f853f65aa",
+  "rtl/sm8521.v": "83c755651c2364be7c45974552d24485fc5d01590ba35f9afb50e316668da1a6",
+  "rtl/sm8521_boot_rom.v": "85d0d38bf6998783604681ab6404d969eaf6b09963e41a817f6dee08aa95dfe2",
+  "rtl/sm8521_decode.v": "557e7e16ee15c474f1ebdb4bea9bbe0a96db7ecbbafbcc7084dce41d36619c46",
+  "rtl/sm8521_gp_store.v": "3140d8432b04aea360552b2f137aec772d480185e110d48b1d346cb9830b71c2",
+  "rtl/sm8521_sound.v": "3dc24ad04af366ee295c0883a4d3c8e096be1532aa8494f4897db27c3317d3bc",
+  "rtl/sm8521_timers.v": "58457586f7557cba77d34ba3d2b5f5345a7877b96edca2a90f5b958c95a56e29",
+  "rtl/Mem/cache_ram.v": "1f18c11f6c4c5278ced27a4d7ad2ed4ef06ec3508cfcdcfefe380876aaccce47",
+  "rtl/Mem/bram.vhd": "f423d3a1e27d3edfe3528b81cf8e8de3067d5d57927105676f63b5048da814a8",
+  "rtl/gamecom_stop_logo.hex": "6e3581fe8506bc51db36369d1ff3de865d3eb967a747a0ae59d2b6340de7842f"
+}

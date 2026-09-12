@@ -1,0 +1,6 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+FROM docker.io/library/fedora:44
+RUN dnf install -y iverilog ghdl verilator gcc-c++ make python3 git \
+        util-linux which findutils ca-certificates \
+    && dnf clean all
+WORKDIR /work

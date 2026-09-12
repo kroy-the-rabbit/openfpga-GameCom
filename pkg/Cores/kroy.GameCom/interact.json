@@ -1,0 +1,59 @@
+{
+  "interact": {
+    "magic": "APF_VER_1",
+    "variables": [
+      {
+        "name": "Reset Core",
+        "id": 10,
+        "type": "action",
+        "enabled": true,
+        "address": "0xF0000000",
+        "value": 1
+      },
+      {
+        "name": "Power Button",
+        "id": 11,
+        "type": "action",
+        "enabled": true,
+        "address": "0xF0000004",
+        "value": 1
+      },
+      {
+        "name": "Load status",
+        "id": 20,
+        "type": "number_u32",
+        "enabled": true,
+        "address": "0xF4000000"
+      },
+      {
+        "name": "Load error",
+        "id": 21,
+        "type": "number_u32",
+        "enabled": true,
+        "address": "0xF4000004"
+      },
+      {
+        "name": "Bytes received",
+        "id": 22,
+        "type": "number_u32",
+        "enabled": true,
+        "address": "0xF400000C"
+      },
+      {
+        "name": "Bytes committed",
+        "id": 23,
+        "type": "number_u32",
+        "enabled": true,
+        "address": "0xF4000010"
+      },
+      {
+        "name": "Readback CRC32",
+        "id": 24,
+        "type": "number_u32",
+        "enabled": true,
+        "address": "0xF4000014"
+      }
+    ],
+    "messages": []
+  }
+}

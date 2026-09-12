@@ -1,0 +1,36 @@
+{
+  "core": {
+    "magic": "APF_VER_1",
+    "metadata": {
+      "platform_ids": [
+        "gamecom"
+      ],
+      "shortname": "GameCom",
+      "description": "Game.com tech demo - highly alpha",
+      "author": "kroy",
+      "url": "https://github.com/kroy-the-rabbit/openfpga-GameCom",
+      "version": "0.99999",
+      "date_release": "2026-09-11"
+    },
+    "framework": {
+      "target_product": "Analogue Pocket",
+      "version_required": "1.2",
+      "sleep_supported": false,
+      "dock": {
+        "supported": true,
+        "analog_output": false
+      },
+      "hardware": {
+        "link_port": false,
+        "cartridge_adapter": "0x80000000"
+      }
+    },
+    "cores": [
+      {
+        "name": "default",
+        "id": 0,
+        "filename": "bitstream.rbf_r"
+      }
+    ]
+  }
+}

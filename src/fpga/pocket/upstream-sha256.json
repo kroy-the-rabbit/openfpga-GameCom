@@ -1,0 +1,117 @@
+{
+  "repository": "https://github.com/kroy-the-rabbit/openfpga-GBA-cheats",
+  "commit": "f5de823aa9d2c4adf8470a6cbf3ce1fc98650762",
+  "description": "Hashes of copied files and adaptation references at the pinned revision, before Game.com changes.",
+  "files": [
+    {
+      "upstream_path": "src/fpga/apf/apf.qip",
+      "destination_path": "src/fpga/apf/apf.qip",
+      "upstream_sha256": "94af53185dde4d51ef30e75bb1ec8df672126742af36399bd62f4efb3a84b26a"
+    },
+    {
+      "upstream_path": "src/fpga/apf/apf_constraints.sdc",
+      "destination_path": "src/fpga/apf/apf_constraints.sdc",
+      "upstream_sha256": "18b72957181178b046c2f27711190cb426482edcd7b58fcda9cfea27e855dd2e"
+    },
+    {
+      "upstream_path": "src/fpga/apf/apf_top.v",
+      "destination_path": "src/fpga/apf/apf_top.v",
+      "upstream_sha256": "6c24aa45a3dab52d8b86944cdd90330aa74cfdcd62e2d43e39d33d4791d173c7"
+    },
+    {
+      "upstream_path": "src/fpga/apf/build_id_gen.tcl",
+      "destination_path": "src/fpga/apf/build_id_gen.tcl",
+      "upstream_sha256": "59fbb66fdcb7d7d025882494c25c7b080dc6d96664bfa28fc4563505fe0fdd1d"
+    },
+    {
+      "upstream_path": "src/fpga/apf/common.v",
+      "destination_path": "src/fpga/apf/common.v",
+      "upstream_sha256": "c1615e2c6c12b111537f6ca11e826e5061eb91f405e349bdc649a17b48e24d4e"
+    },
+    {
+      "upstream_path": "src/fpga/apf/io_bridge_peripheral.v",
+      "destination_path": "src/fpga/apf/io_bridge_peripheral.v",
+      "upstream_sha256": "fb9c13e0311ac6b01019898d0ca7786f370228380356fe618fc2b473f2add17d"
+    },
+    {
+      "upstream_path": "src/fpga/apf/io_pad_controller.v",
+      "destination_path": "src/fpga/apf/io_pad_controller.v",
+      "upstream_sha256": "70cda74af63d3baa53f87473e1d9e2d524ea305b299a3f832d6c1292771a305e"
+    },
+    {
+      "upstream_path": "src/fpga/apf/mf_datatable.qip",
+      "destination_path": "src/fpga/apf/mf_datatable.qip",
+      "upstream_sha256": "8d4fac9c708f86c426e5241055d8000063e16dbe9b5c414f320a8b24c44a0632"
+    },
+    {
+      "upstream_path": "src/fpga/apf/mf_datatable.v",
+      "destination_path": "src/fpga/apf/mf_datatable.v",
+      "upstream_sha256": "e2cc2e33ccc22b9a8be3c426141848e0ea7800abb45ce55530eebe17dd23ffd7"
+    },
+    {
+      "upstream_path": "src/fpga/apf/mf_ddio_bidir_12.qip",
+      "destination_path": "src/fpga/apf/mf_ddio_bidir_12.qip",
+      "upstream_sha256": "f0ed4e73a07d734115bbde6501b43fe5878a7409f9b3b68bb4c7e0424b31b42e"
+    },
+    {
+      "upstream_path": "src/fpga/apf/mf_ddio_bidir_12.v",
+      "destination_path": "src/fpga/apf/mf_ddio_bidir_12.v",
+      "upstream_sha256": "31c8b62114d7bc916104a6199d919d9e2235a164aba518360b339867a08426aa"
+    },
+    {
+      "upstream_path": "src/fpga/pocket/mf_audio_pll/mf_audio_pll.v",
+      "destination_path": "src/fpga/pocket/mf_audio_pll/mf_audio_pll.v",
+      "upstream_sha256": "9661b3e9b43cceadbbe18290d8a455b7bc57359929085317f586a889d8b2bccb"
+    },
+    {
+      "upstream_path": "src/fpga/pocket/mf_audio_pll/mf_audio_pll_0002.v",
+      "destination_path": "src/fpga/pocket/mf_audio_pll/mf_audio_pll_0002.v",
+      "upstream_sha256": "94df902acb41f1349bf6d4777a2c42ca0191d3b664850beb2937b6869fa6f400"
+    },
+    {
+      "upstream_path": "src/fpga/core/core_bridge_cmd.v",
+      "destination_path": "src/fpga/core/core_bridge_cmd.v",
+      "upstream_sha256": "f9461cfa521e039d44fe63af1985fb8e9dbaec84869422d368f634dc40ab0037"
+    },
+    {
+      "upstream_path": "src/fpga/core/core_top.sv",
+      "destination_path": "src/fpga/core/core_top.sv",
+      "upstream_sha256": "aab7118ad745a9e3d564088241a9f87130243d427faa5496ccf47b3421b63412"
+    },
+    {
+      "upstream_path": "src/fpga/build/ap_core.qsf",
+      "destination_path": "src/fpga/build/ap_core.qsf",
+      "upstream_sha256": "40e5ec2911f1fe710b1224eaf1c165f2d01a216de8d1425e5608d8d8d652d247"
+    },
+    {
+      "upstream_path": "tools/podman/build.sh",
+      "destination_path": "tools/podman/build.sh",
+      "upstream_sha256": "bf19cc5a638b58a4a26ca1f85eacc16305db3b351f461a90289b58339f4c4e51"
+    },
+    {
+      "upstream_path": "tools/podman/report.sh",
+      "destination_path": "tools/podman/report.sh",
+      "upstream_sha256": "25d7401f1078244255be0c4f8cb452c3d95383940cac51bae7a7f56f79592470"
+    },
+    {
+      "upstream_path": "scripts/reverse_bitstream.py",
+      "destination_path": "scripts/reverse_bitstream.py",
+      "upstream_sha256": "f23bea74d52c912b1c8b8f7d4e1159bd3329e207a148b998511a68808a7ae002"
+    },
+    {
+      "upstream_path": "generate.tcl",
+      "destination_path": "generate.tcl",
+      "upstream_sha256": "255b17f3cf7192211430bc0907c88979a56a10d91c3bb60a139249887b01c434"
+    },
+    {
+      "upstream_path": "Makefile",
+      "destination_path": "Makefile",
+      "upstream_sha256": "4cb8eb77007a7da4f34f50fc2b4c584ed12da75f3a21012502552d60071527b0"
+    },
+    {
+      "upstream_path": "src/fpga/core/sdram_pocket.sv",
+      "destination_path": "src/fpga/core/gamecom_sdram.sv",
+      "upstream_sha256": "97cff6719375df932e50d27f9d6dc7d3d191f307317ce6ada19292d48c8ac26f"
+    }
+  ]
+}
