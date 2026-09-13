@@ -91,3 +91,12 @@ Source and rebuild tooling are available separately through GitHub.
 - [GBA cheats](https://github.com/kroy-the-rabbit/openfpga-GBA-cheats).
 - [PC Engine cheats](https://github.com/kroy-the-rabbit/openfpga-pcengine-cheats).
 - [Cartridge tools](https://github.com/kroy-the-rabbit/openfpga-carttools).
+
+[Engineering history](https://github.com/kroy-the-rabbit/pocket-engineering/blob/main/gamecom/README.md) (private).
+
+## Versions
+
+Versions use `0.9999.YYYYMMDD`, where the date is UTC. Release tags add `v`,
+for example `v0.9999.20260913`. Each project releases independently.
+The source commit and bitstream checksums are recorded in build provenance.
+A published date is not reused for a different build.

@@ -3,6 +3,8 @@
 set -euo pipefail
 
 HERE="$(cd "$(dirname "$0")" && pwd)"
+source "$HERE/version.sh"
+STAMP=$(pocket_version "${RELEASE_NAME:-}")
 REPO="$(cd "$HERE/../.." && pwd)"
 BDIR="$REPO/build/gamecom"
 WORK="$BDIR/work"
@@ -109,7 +111,6 @@ test -f "$RBF" || { echo "no .rbf produced, see $BDIR/build.log" >&2; exit 1; }
 GIT_SHA="$GIT_SHA" GIT_DIRTY="$GIT_DIRTY" "$HERE/report.sh"
 
 RBF_NAME=$("$PY" -c "import json,sys;print(json.load(open(sys.argv[1]))['core']['cores'][0]['filename'])" "$CORE_DIR/core.json")
-VERSION=$("$PY" -c "import json,sys;print(json.load(open(sys.argv[1]))['core']['metadata']['version'])" "$CORE_DIR/core.json")
 
 "$PY" "$REPO/scripts/reverse_bitstream.py" "$RBF" "$BDIR/$RBF_NAME"
 
@@ -117,10 +118,7 @@ rm -rf "$BDIR/sd"
 rsync -a "$REPO/pkg/" "$BDIR/sd/"
 cp "$BDIR/$RBF_NAME" "$BDIR/sd/Cores/$CORE_NAME/$RBF_NAME"
 
-STAMP="${RELEASE_NAME:-}"
-STAMP="${STAMP#v}"
-[[ -n "$STAMP" ]] || STAMP="${VERSION}.${GIT_SHA}${GIT_DIRTY:+.dirty}"
-"$PY" - "$BDIR/sd/Cores/$CORE_NAME/core.json" "$STAMP" "$(date -u +%Y-%m-%d)" <<'PY'
+"$PY" - "$BDIR/sd/Cores/$CORE_NAME/core.json" "$STAMP" "$(pocket_version_date "$STAMP")" <<'PY'
 import json, sys
 path, version, date = sys.argv[1:]
 assert len(version) <= 31, f"version too long for APF: {version}"
