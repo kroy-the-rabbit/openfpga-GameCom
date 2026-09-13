@@ -81,7 +81,7 @@ make test
 - Pocket integration: kroy. Source hashes and copyright/license notices retained.
   Machine license: `src/fpga/gamecom/LICENSE`.
 
-Releases use `0.99999.<commit>`. The Pocket ZIP contains installable files.
+Releases use `0.9999.<commit>`. The Pocket ZIP contains installable files.
 Source and rebuild tooling are available separately through GitHub.
 
 ## Related Analogue Pocket projects

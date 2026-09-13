@@ -118,7 +118,7 @@ with tempfile.TemporaryDirectory(prefix="gamecom-provenance-") as temporary:
             output.writestr(provenance.RBF_MEMBER, bitstream)
             if extra:
                 output.writestr(*extra)
-    for version in ("preview-1", f"0.99999.{sealed['source']['short_commit']}.dirty"):
+    for version in ("preview-1", f"0.9999.{sealed['source']['short_commit']}.dirty"):
         make_package(version)
         manifest = provenance.package_manifest(repo, build, archive)
         assert provenance.validate_package(archive) == manifest
